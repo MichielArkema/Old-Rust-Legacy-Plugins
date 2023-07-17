@@ -1,0 +1,153 @@
+{
+  "Options": {
+    "Enabled": true,
+    "WaitTimer": 1.0,
+    "BattleTimer": 10.0,
+    "LobbyTimer": 30.0,
+    "MinPlayers": 5,
+    "MaxPlayers": 20,
+    "LobbyLocation": "",
+    "BlueSpawn": "",
+    "RedSpawn": ""
+  },
+  "Messages": {
+    "Disabled": "[color red]Sorry, our TDM plugin is currently disabled, please try again later",
+    "NotRunning": "[color orange]There is not a TDM event yet",
+    "IsRunning": "[color orange]There is a current match going on, please try next time",
+    "IsFull": "[color orange]The lobby is full, please try again next time",
+    "LobbyOpen": "[color green]THE TDM LOBBY IS NOW OPEN, TYPE /tdm join",
+    "LobbyOpenNotice": "The TDM lobby is now open, type /tdm join",
+    "LobbyJoin": "[color #7fffd4]{0} [color #6495ed] has entered the tdm lobby. [color yellow]{1} places left ",
+    "LobbyLeave": "[color orange]{0} [color yellow]has left the tdm lobby. [color aqua] {1} places left",
+    "TeamRedJoin": "[color yellow]{0} [color orange]joined team [color red]RED!",
+    "TeamBlueJoin": "[color yellow]{0} [color orange]joined team [color blue]BLUE!",
+    "TeamJoinNotice": "You joined team {0}",
+    "BattleStart": "[color green]The TDM battle has started"
+  },
+  "Kits": {
+    "Blue": [
+      {
+        "name": "Kevlar Helmet",
+        "amount": 1,
+        "slot": 36
+      },
+      {
+        "name": "Kelvar Vest",
+        "amount": 1,
+        "slot": 37
+      },
+      {
+        "name": "Kevlar Pants",
+        "amount": 1,
+        "slot": 38
+      },
+      {
+        "name": "Kevlar Boots",
+        "amount": 1,
+        "slot": 39
+      },
+      {
+        "name": "M4",
+        "amount": 1,
+        "slot": 30
+      },
+      {
+        "name": "Small Medkit",
+        "amount": 5,
+        "slot": 31
+      },
+      {
+        "name": "Small Medkit",
+        "amount": 5,
+        "slot": 32
+      },
+      {
+        "name": "Shotgun",
+        "amount": 1,
+        "slot": 33
+      },
+      {
+        "name": "Cooked Chicken Breast",
+        "amount": 20,
+        "slot": 34
+      },
+      {
+        "name": "556 Ammo",
+        "amount": 250,
+        "slot": 1
+      },
+      {
+        "name": "Shotgun Shells",
+        "amount": 50,
+        "slot": 1
+      },
+      {
+        "name": "Small Medkit",
+        "amount": 20,
+        "slot": 1
+      }
+    ],
+    "Red": [
+      {
+        "name": "Leather Helmet",
+        "amount": 1,
+        "slot": 36
+      },
+      {
+        "name": "Leather Vest",
+        "amount": 1,
+        "slot": 37
+      },
+      {
+        "name": "Leather Pants",
+        "amount": 1,
+        "slot": 38
+      },
+      {
+        "name": "Leather Boots",
+        "amount": 1,
+        "slot": 39
+      },
+      {
+        "name": "M4",
+        "amount": 1,
+        "slot": 30
+      },
+      {
+        "name": "Large Medkit",
+        "amount": 5,
+        "slot": 31
+      },
+      {
+        "name": "Large Medkit",
+        "amount": 5,
+        "slot": 32
+      },
+      {
+        "name": "MP5A4",
+        "amount": 1,
+        "slot": 33
+      },
+      {
+        "name": "Cooked Chicken Breast",
+        "amount": 20,
+        "slot": 34
+      },
+      {
+        "name": "556 Ammo",
+        "amount": 250,
+        "slot": 1
+      },
+      {
+        "name": "9mm Ammo",
+        "amount": 250,
+        "slot": 1
+      },
+      {
+        "name": "Large Medkit",
+        "amount": 20,
+        "slot": 1
+      }
+    ]
+  }
+}
